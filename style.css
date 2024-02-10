@@ -82,7 +82,7 @@ section {
 }
 footer p{
     font-size: smaller;
-    display: block;
-    width: auto;
     text-align: center;
+    margin: auto;
+    margin-top: 1em;
 }
