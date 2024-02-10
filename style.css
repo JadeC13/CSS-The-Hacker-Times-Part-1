@@ -9,16 +9,24 @@ body {
     background-color: white;
     box-shadow: #ddd;
     width: 700px;
-    margin-left: 400px;
+    margin-left: 600px;
     margin-right: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 2%;
 }
 .date{
     color: grey;
 }
 nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
     border-top: #ddd;
     border-bottom: #ddd;
+    margin-top: 2em;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 h1 {
     text-align: center;
@@ -49,8 +57,13 @@ main img {
 }
 p {
     font-family: 'Roboto Slab';
+    text-align: justify;
 }
-.more-articles{
+.more-articles {
+    display: flex;
+    justify-content: space-between;
+}
+.even-more-articles {
     display: flex;
     justify-content: space-between;
 }
@@ -59,5 +72,16 @@ section {
     display: inline-block;
     width: 20em;
 }
-section p{
+.three-articles {
+    width: 200px;
+
+}
+.three-articles img {
+    width: 200px;
+    height: auto;
+}
+footer p{
+    display: block;
+    width: auto;
+    text-align: center;
 }
