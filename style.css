@@ -81,6 +81,7 @@ section {
     height: auto;
 }
 footer p{
+    font-size: smaller;
     display: block;
     width: auto;
     text-align: center;
